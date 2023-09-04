@@ -1,4 +1,4 @@
-# Rent-a-car-App
+# Rent-a-car-App (Web Programming)
 
 To set up Eclipse for Java and web development, follow these steps:
 
