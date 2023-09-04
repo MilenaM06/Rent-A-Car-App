@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        .btn-primary {
+            background-color: orange;
+            border-color: orange;
+        }
+        .frame {
+            border: 10px solid orange;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .input-sm {
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="frame p-4">
+            <img src="milmar_just_logo.png" alt="" class="mx-auto d-block" width="80px;">
+            <h1 class="text-center mt-1 text-secondary">My Profile</h1>
+            
+            <div class="text-center mt-4">
+                <table class="table">
+                    <tr>
+                        <td><label>Username:</label></td>
+                        <td><label>petar_petrovic</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Name:</label></td>
+                        <td><label>Petar</label></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Surname:</label></td>
+                        <td><label>Petrovic</label></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Gender:</label></td>
+                        <td><label>MALE</label></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Date of Birth:</label></td>
+                        <td><label>16.01.2000.</label></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Role:</label></td>
+                        <td><label >CUSTOMER</label></td>
+                    </tr>
+                </table>
+
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-primary mr-2">Change Info</button>
+                    <button class="btn btn-primary">Change Password</button>
+                </div>
+            </div>
+
+            <br>
+
+            <div>
+                <form>
+                  <table>
+                    <tr>
+                      <td><label for="password">New password*</label></td>
+                      <td><input type="password" class="form-control input-sm" id="surname" name="password" id="password"></td>
+                    </tr>
+            
+                    <tr>
+                      <td><label for="passwordCheck">Password check*</label></td>
+                      <td><input type="password" class="form-control input-sm" id="surname" name="passwordCheck" id="passwordCheck"></td>
+                    </tr>
+                            
+                   </table>
+    
+                   <div class="d-flex justify-content-center" >
+                        <button class="btn btn-primary ml-2">Confirm</button>
+                        <button class="btn btn-secondary ml-2">Discard</button>
+                    </div>
+                   <p class="error-message text-center mt-3">{{errorMessage}}</p>
+                </form>
+            </div>
+    
+            <div>
+                <form>
+                    <table>
+                        <tr>
+                            <td><label for="username">Username:</label></td>
+                            <td><input type="text" class="form-control input-sm"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" class="form-control input-sm"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="surname">Surname:</label></td>
+                            <td><input type="text" class="form-control input-sm"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="gender">Gender:</label></td>
+                            <td>
+                                <select name="gender" id="gender" class="form-control input-sm">
+                                    <option value="MALE">MALE</option>
+                                    <option value="FEMALE">FEMALE</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="dateOfBirth">Date of birth:</label></td>
+                            <td><input type="date" name="dateInput" class="form-control input-sm"></td>
+                        </tr>              
+                    </table>
+    
+                    <div class="d-flex justify-content-center" >
+                        <button class="btn btn-primary ml-2">Confirm</button>
+                        <button class="btn btn-secondary ml-2">Discard</button>
+                    </div>
+                </form>
+                <p class="error-message text-center mt-3">{{errorMessage}}</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Info</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        .btn-primary {
+            background-color: orange;
+            border-color: orange;
+        }
+        .frame {
+            border: 10px solid orange;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .input-sm {
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="frame p-4">
+            <img src="milmar_just_logo.png" alt="" class="mx-auto d-block" width="80px;">
+            <h1 class="text-center mt-1 text-secondary">Nissan Qashqai</h1>
+            <img src="car.png" alt="" class="mx-auto d-block" width="300px;">
+
+            <div class="text-center mt-4 mb-4">
+                <table class="table">
+
+                    <tr>
+                        <td><label>Price:</label></td>
+                        <td><label>130€</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Type:</label></td>
+                        <td><label>CAR</label></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Transmission Type:</label></td>
+                        <td><label>AUTOMATIC</label></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Fuel Type:</label></td>
+                        <td><label>PETROL</label></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Fuel Consumption:</label></td>
+                        <td><label>7.2</label></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Number Of Doors:</label></td>
+                        <td><label >5</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Passenger Capacity:</label></td>
+                        <td><p >5</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Description:</label></td>
+                        <td><p>A stylish and practical crossover SUV for urban adventures</p></td>
+                    </tr>
+                </table>
+
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-primary mr-2">Change Vehicle</button>
+                    <button class="btn btn-secondary">Delete Vehicle</button>
+                </div>
+            </div>
+
+
+            <div>
+                <form>
+                    <table>
+                        <tr>
+                            <td><label for="brand">Brand:</label></td>
+                            <td><input type="text" class="form-control input-sm" name="brand" id="brand"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="model">Model:</label></td>
+                            <td><input type="text" class="form-control input-sm" name="model" id="model"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="price">Price:</label></td>
+                            <td><input type="number" class="form-control input-sm" name="price" id="price"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="type">Type:</label></td>
+                            <td>
+                                <select name="type" id="type" class="form-control input-sm">
+                                    <option value="CAR">CAR</option>
+                                    <option value="VAN">VAN</option>
+                                    <option value="MOBILEHOME">MOBILEHOME</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="transmissionType">Transmission Type:</label></td>
+                            <td>
+                                <select name="transmissionType" id="transmissionType" class="form-control input-sm">
+                                    <option value="MANUAL">MANUAL</option>
+                                    <option value="AUTOMATIC">AUTOMATIC</option>
+                                </select>
+                            </td>
+                        </tr>     
+                        
+                        <tr>
+                            <td><label for="fuelType">Fuel Type:</label></td>
+                            <td>
+                                <select name="transmissionType" id="transmissionType" class="form-control input-sm">
+                                    <option value="DIESEL">DIESEL</option>
+                                    <option value="PETROL">PETROL</option>
+                                    <option value="HYBRID">HYBRID</option>
+                                    <option value="ELECTRIC">ELECTRIC</option>
+                                </select>
+                            </td>
+                        </tr> 
+
+                        <tr>
+                            <td><label for="numberOfDoors">Number Of Doors:</label></td>
+                            <td><input type="number" class="form-control input-sm" name="numberOfDoors" id="numberOfDoors"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="passengerCapacity">Passenger Capacity:</label></td>
+                            <td><input type="number" class="form-control input-sm" name="passengerCapacity" id="passengerCapacity"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="description">Description:</label></td>
+                            <td><input type="number" class="form-control input-sm" name="description" id="description"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="image">Image:</label></td>
+                            <td><input class="form-control input-sm" id="imageUpload" type="file" @change="fileUpload" accept="image/jpeg, image/png, image/gif" required /></td>
+                        </tr>
+
+                    </table>
+    
+                    <div class="d-flex justify-content-center" >
+                        <button class="btn btn-primary ml-2">Confirm</button>
+                        <button class="btn btn-secondary ml-2">Discard</button>
+                    </div>
+                </form>
+                <p class="error-message text-center mt-3">{{errorMessage}}</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

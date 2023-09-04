@@ -1,0 +1,28 @@
+[
+
+{
+  "id" : "1",
+  "customerId" : "2",
+  "rentACarId" : "2",
+  "content" : "Good",
+  "rating" : 5,
+  "status" : "PENDING"
+}, 
+ {
+  "id" : "2",
+  "customerId" : "1",
+  "rentACarId" : "1",
+  "content" : "Good",
+  "rating" : 5,
+  "status" : "ACCEPTED"
+},
+
+{
+  "id" : "3",
+  "customerId" : "1",
+  "rentACarId" : "2",
+  "content" : "Bad",
+  "rating" : 3,
+  "status" : "PENDING"
+}
+]

@@ -1,0 +1,107 @@
+[ {
+  "id" : "1",
+  "username" : "pera",
+  "password" : "123",
+  "name" : "Petar",
+  "surname" : "Petrovic",
+  "gender" : "MALE",
+  "dateOfBirth" : "2000-08-10",
+  "role" : "CUSTOMER",
+  "deleted" : false,
+  "blocked" : false
+}, {
+  "id" : "2",
+  "username" : "jelena",
+  "password" : "123",
+  "name" : "Jelena",
+  "surname" : "Jelic",
+  "gender" : "FEMALE",
+  "dateOfBirth" : "1987-04-02",
+  "role" : "CUSTOMER",
+  "deleted" : false,
+  "blocked" : false
+}, {
+  "id" : "3",
+  "username" : "admin",
+  "password" : "123",
+  "name" : "Stefan",
+  "surname" : "Kovacevic",
+  "gender" : "MALE",
+  "dateOfBirth" : "1995-10-09",
+  "role" : "ADMINISTRATOR",
+  "deleted" : false,
+  "blocked" : false
+},
+ {
+  "id" : "4",
+  "username" : "manager1",
+  "password" : "123",
+  "name" : "Aleksandar",
+  "surname" : "Popovic",
+  "gender" : "MALE",
+  "dateOfBirth" : "1993-08-05",
+  "role" : "MANAGER",
+  "deleted" : false,
+  "blocked" : false
+},
+ {
+  "id" : "5",
+  "username" : "manager2",
+  "password" : "123",
+  "name" : "Marko",
+  "surname" : "Markovic",
+  "gender" : "MALE",
+  "dateOfBirth" : "1999-08-03",
+  "role" : "MANAGER",
+  "deleted" : false,
+  "blocked" : false
+},
+ {
+  "id" : "6",
+  "username" : "manager3",
+  "password" : "123",
+  "name" : "Filip",
+  "surname" : "Krstic",
+  "gender" : "MALE",
+  "dateOfBirth" : "1993-08-07",
+  "role" : "MANAGER",
+  "deleted" : false,
+  "blocked" : false
+},
+ {
+  "id" : "7",
+  "username" : "manager4",
+  "password" : "123",
+  "name" : "Igor",
+  "surname" : "Milutinovic",
+  "gender" : "MALE",
+  "dateOfBirth" : "1998-06-06",
+  "role" : "MANAGER",
+  "deleted" : false,
+  "blocked" : false
+},
+ {
+  "id" : "8",
+  "username" : "manager5",
+  "password" : "123",
+  "name" : "Jelena",
+  "surname" : "Peric",
+  "gender" : "FEMALE",
+  "dateOfBirth" : "2002-09-10",
+  "role" : "MANAGER",
+  "deleted" : true,
+  "blocked" : false
+},
+ {
+  "id" : "9",
+  "username" : "admin2",
+  "password" : "123",
+  "name" : "Milos",
+  "surname" : "Milosevic",
+  "gender" : "MALE",
+  "dateOfBirth" : "1975-01-11",
+  "role" : "ADMINISTRATOR",
+  "deleted" : false,
+  "blocked" : false
+}
+]

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentACar registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .btn-primary {
+            background-color: orange;
+            border-color: orange;
+        }
+        .frame {
+            border: 10px solid orange;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px;
+            width: 60%;
+        }
+        .input-sm {
+            margin-bottom: 10px;
+        }
+
+        .map-frame {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        height: 80%;
+        margin-top: 10%;
+        }
+
+        .map-frame img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="frame">
+            <img src="milmar_just_logo.png" alt="" class="mx-auto d-block" width="80px;">
+            <h1 class="text-center text-secondary">Registration Form</h1>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Left column of form fields -->
+                        <table>
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" class="form-control input-sm" name="name" v-model="name" required></td>
+                            </tr>
+
+                            <tr>
+                                <td>Working hours:</td>
+                                <td class="d-flex">
+                                    <input type="time" class="form-control input-sm mr-2" name="startTime" required>
+                                    <input type="time" class="form-control input-sm" name="endTime" pattern="HH:mm" placeholder="HH:mm" required>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Street:</td>
+                                <td><input type="text"  class="form-control input-sm" name="street" required readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Street Number:</td>
+                                <td><input type="text"  class="form-control input-sm" name="streetNumber"  required readonly></td>
+                            </tr>
+                            <tr>
+                                <td>City:</td>
+                                <td><input type="text"  class="form-control input-sm" name="city"  required readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Country:</td>
+                                <td><input type="text"  class="form-control input-sm" name="country"required readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Zipcode:</td>
+                                <td><input type="text"  class="form-control input-sm" name="zipcode"  required readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Longitude:</td>
+                                <td><input type="text"  class="form-control input-sm" name="longitude"  required readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Latitude:</td>
+                                <td><input type="text"  class="form-control input-sm" name="latitude" required readonly></td>
+                            </tr>
+
+                            <tr>
+                                <td>Logo:</td>
+                                <td><input id="Image"  class="form-control input-sm" type="file" @change="fileUpload" accept="image/jpeg, image/png, image/gif" required /></td>
+                            </tr>
+                            <tr>
+                                <td>Manager</td>
+                                <td class="d-flex">
+                                    <select id="selectManager"  class="form-control input-sm" name="selectManager"  required ></select>
+                                    <button type="button" class="btn btn-primary btn-block ml-2 mb-2" data-toggle="modal" data-target="#manager-registration-modal" v-show="managersLength === 0"> Register manager </button>
+                                </td>
+                            </tr>   
+                        </table>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class=" map-frame d-flex flex-column justify-content align-items-center">
+                            <div class="mb-2 mt-2 ml-3">Please mark the location on the map to fill in the fields</div>
+                             <img src="map.png">
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block">Save</button>
+            </form>
+            <p class="error-message text-center mt-3">{{errorMessage}}</p>
+        </div>
+    </div>
+    
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

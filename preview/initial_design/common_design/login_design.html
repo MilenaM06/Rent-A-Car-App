@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .btn-primary {
+            background-color: orange;
+            border-color: orange;
+        }
+        .frame {
+            border: 10px solid orange;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .input-sm {
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body >
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="frame">
+            <img src="milmar_just_logo.png" alt="" class="mx-auto d-block" width="80px;">
+            <h1 class="text-center mt-1 text-secondary" >Login Form</h1>
+            <br>
+            <form>
+                <table>
+                    <tr> 
+                        <td><label for="username">Username*</label></td>
+                        <td><input type="text" class="form-control input-sm" id="username"></td>
+                    </tr>
+    
+                    <tr> 
+                        <td><label for="password">Password*</label></td>
+                        <td><input type="password" class="form-control input-sm" id="password"></td>
+                    </tr>           
+                </table>
+                
+                <button type="button" class="btn btn-primary btn-block mt-3">Login</button>
+            </form>
+    
+            <p class="error-message text-center mt-3">{{errorMessage}}</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

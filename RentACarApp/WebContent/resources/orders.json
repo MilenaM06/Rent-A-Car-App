@@ -1,0 +1,91 @@
+[ 
+
+{
+  "id" : "1",
+  "uniqueId" : "jG5vKp3eX9",
+  "vehicleIds" : [ "1", "5"],
+  "rentACarId" : "1",
+  "startDate" : "2023-08-10",
+  "endDate" : "2023-08-26",
+  "customerId" : "1",
+  "price" : 90.0,
+  "status" : "PROCESSING",
+  "declineReason" : "",
+  "commentId" : "0"
+  
+},
+
+{
+  "id" : "2",
+  "uniqueId" : "qR7mTf1bC8",
+  "vehicleIds" : [ "2", "6" ],
+  "rentACarId" : "2",
+  "startDate" : "2022-01-05",
+  "endDate" : "2022-01-15",
+  "customerId" : "2",
+  "price" : 115.0,
+  "status" : "RETURNED",
+  "declineReason" : "",
+  "commentId" : "1"
+  
+},
+
+{
+  "id" : "3",
+  "uniqueId" : "hN2dLw6zA4",
+  "vehicleIds" : [ "3", "7"],
+  "rentACarId" : "1",
+  "startDate" : "2023-07-07",
+  "endDate" : "2023-07-15",
+  "customerId" : "1",
+  "price" : 140.0,
+  "status" : "RETURNED",
+  "declineReason" : "",
+  "commentId" : "0"
+  
+},
+
+{
+  "id" : "4",
+  "uniqueId" : "tS9kPc7yM3",
+  "vehicleIds" : [ "9", "15"],
+  "rentACarId" : "1",
+  "startDate" : "2023-01-17",
+  "endDate" : "2023-01-28",
+  "customerId" : "1",
+  "price" : 950.0,
+  "status" : "RETURNED",
+  "declineReason" : "",
+  "commentId" : "2"
+  
+},
+{
+  "id" : "5",
+  "uniqueId" : "qR7mTf1bC8",
+  "vehicleIds" : [ "2", "6"],
+  "rentACarId" : "2",
+  "startDate" : "2022-09-05",
+  "endDate" : "2022-09-15",
+  "customerId" : "2",
+  "price" : 115.0,
+  "status" : "RETURNED",
+  "declineReason" : "",
+  "commentId" : "0"
+  
+},
+{
+  "id" : "6",
+  "uniqueId" : "qR7mTf1bC8",
+  "vehicleIds" : ["8", "12"],
+  "rentACarId" : "2",
+  "startDate" : "2022-03-05",
+  "endDate" : "2022-03-15",
+  "customerId" : "1",
+  "price" : 165.0,
+  "status" : "RETURNED",
+  "declineReason" : "",
+  "commentId" : "3"
+  
+}
+
+]

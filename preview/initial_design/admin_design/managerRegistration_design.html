@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .btn-primary {
+            background-color: orange;
+            border-color: orange;
+        }
+        .frame {
+            border: 10px solid orange;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .input-sm {
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="frame">
+            <img src="milmar_just_logo.png" alt="" class="mx-auto d-block" width="80px;">
+            <h1 class="text-center mt-1 text-secondary">Register Manager</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="Username">Username*</label></td>
+                        <td>
+                            <input type="text" id="username" name="username" class="form-control input-sm" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Name">Name*</label></td>
+                        <td>
+                            <input type="text" id="name" name="name" class="form-control input-sm"  required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Surname">Surname*</label></td>
+                        <td>
+                            <input type="text" id="surname" name="surname" class="form-control input-sm"  required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender*</label></td>
+                        <td>
+                            <select class="form-control input-sm"  name="gender" id="gender" required>
+                            <option value="MALE">MALE</option>
+                            <option value="FEMALE">FEMALE</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="dateOfBirth">Date of birth*</label></td>
+                        <td>
+                            <input type="date" class="form-control input-sm" name="dateOfBirth">
+                        </td>
+                    </tr>
+                </table>
+                <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
+            </form>
+        <p class="error-message text-center mt-3">{{errorMessage}}</p>
+        </div>
+     </div>
+
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

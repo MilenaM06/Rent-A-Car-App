@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Rent A Car</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+
+        .rounded-container {
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-frame {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        height: 50%;
+        margin-top: 25%;
+        }
+
+
+        .map-frame img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .card-text {
+            font-size: 1rem;
+            color: #555;
+        }
+        .card-img-top {
+            max-height: 250px;
+            object-fit: contain;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .price {
+            position: absolute;
+            top: 10px;
+            right: 8px;
+        }
+        .price-badge {
+            background-color: orange;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 6px 12px;
+            border-radius: 4px;
+        }
+
+        .btn-primary {
+            background-color: orange;
+            border-color: orange;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="milmar_logo.png" alt="" width="200">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4 rounded-container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="text-center mt-4">
+
+                    <div><img src="royal_logo.png" class="rounded" width="200px"></div>
+                    <br>
+                    <table class="table">
+                        <tr>
+                            <td><label>Name:</label></td>
+                            <td><label>ROYAL RENT A CAR</label></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Status:</label></td>
+                            <td><label>OPEN</label></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Location:</label></td>
+                            <td><label>Emerika Bluma 14, <br>
+                                Sarajevo, Bosnia and Herzegovina, 71144, <br>
+                                43.85179901123047, 18.404102325439453</label></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Rating:</label></td>
+                            <td><label >5.0</label></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Working hours:</label></td>
+                            <td><label >08:00 - 19:00</label></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="col-md-6">
+                <div class="map-frame">
+                    <img src="map.png">
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <section class="container mt-3">
+        <div class="row justify-content-center">
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="car.png" class="card-img-top" height="250">
+                    <div class="card-body">
+                        <h5 class="card-title">Nissan Quashqai</h5>
+                        <p class="card-text">CAR,  AUTOMATIC, PETROL</p>
+                        <p class="card-text">7.2 l/100km, 5 doors, 5 passengers</p>
+                        <p class="card-text">A stylish and practical crossover SUV for urban adventures</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-badge">65€</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="car.png" class="card-img-top" height="250">
+                    <div class="card-body">
+                        <h5 class="card-title">Nissan Quashqai</h5>
+                        <p class="card-text">CAR,  AUTOMATIC, PETROL</p>
+                        <p class="card-text">7.2 l/100km, 5 doors, 5 passengers</p>
+                        <p class="card-text">A stylish and practical crossover SUV for urban adventures</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-badge">65€</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="car.png" class="card-img-top" height="250">
+                    <div class="card-body">
+                        <h5 class="card-title">Nissan Quashqai</h5>
+                        <p class="card-text">CAR,  AUTOMATIC, PETROL</p>
+                        <p class="card-text">7.2 l/100km, 5 doors, 5 passengers</p>
+                        <p class="card-text">A stylish and practical crossover SUV for urban adventures</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-badge">65€</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="car.png" class="card-img-top" height="250">
+                    <div class="card-body">
+                        <h5 class="card-title">Nissan Quashqai</h5>
+                        <p class="card-text">CAR,  AUTOMATIC, PETROL</p>
+                        <p class="card-text">7.2 l/100km, 5 doors, 5 passengers</p>
+                        <p class="card-text">A stylish and practical crossover SUV for urban adventures</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-badge">65€</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="car.png" class="card-img-top" height="250">
+                    <div class="card-body">
+                        <h5 class="card-title">Nissan Quashqai</h5>
+                        <p class="card-text">CAR,  AUTOMATIC, PETROL</p>
+                        <p class="card-text">7.2 l/100km, 5 doors, 5 passengers</p>
+                        <p class="card-text">A stylish and practical crossover SUV for urban adventures</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-badge">65€</span>
+                    </div>
+                </div>
+            </div>
+                  
+            </div>
+        </div>
+    </section> 
+
+    <footer class="text-center text-lg-start bg-white text-muted">
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2023 All rights reserved
+            </div>
+     </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

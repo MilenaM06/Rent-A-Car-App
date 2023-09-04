@@ -1,0 +1,98 @@
+[
+	{
+		"id": "1",
+		"name": "ALDI RENT A CAR",
+		"status": "OPEN",
+		"location": {
+			"address": {
+				"street": "Kneza Mihaila",
+				"number": 10,
+				"city": "Belgrade",
+				"country": "Serbia",
+				"postcode": 11040
+			},
+			"latitude": 44.816110,
+			"longitude": 20.459160
+		},
+		"logo": "images/logo1.jpg",
+		"rating": 5.0,
+		"workingHours": {
+			"startTime": "07:00",
+			"endTime": "14:00"
+		},
+		"managerId": 4,
+		"deleted": false
+	},
+	{
+		"id": "2",
+		"name": "ROYAL RENT A CAR",
+		"status": "OPEN",
+		"location": {
+			"address": {
+				"street": "Emerika Bluma",
+				"number": 14,
+				"city": "Sarajevo",
+				"country": "Bosnia and Herzegovina",
+				"postcode": 71144
+			},
+			"latitude": 43.85179901123047,
+			"longitude": 18.404102325439453
+		},
+		"logo": "images/logo2.jpg",
+		"rating": 4.0,
+		"workingHours": {
+			"startTime": "07:00",
+			"endTime": "23:00"
+		},
+		"managerId": 5,
+		"deleted": false
+	},
+	{
+		"id": "3",
+		"name": "AR RENT A CAR",
+		"status": "OPEN",
+		"location": {
+			"address": {
+				"street": "Loznicka",
+				"number": 2,
+				"city": "Belgrade",
+				"country": "Serbia",
+				"postcode": 11118
+			},
+			"latitude": 44.79937794671695,
+			"longitude": 20.48124864982522
+		},
+		"logo": "images/logo3.jpg",
+		"rating": 0.0,
+		"workingHours": {
+			"startTime": "08:00",
+			"endTime": "15:00"
+		},
+		"managerId": 6,
+		"deleted": false
+	},
+	{
+		"id": "4",
+		"name": "EURORENT RENT A CAR",
+		"status": "OPEN",
+		"location": {
+			"address": {
+				"street": "Strazilovska",
+				"number": 37,
+				"city": "Novi Sad City",
+				"country": "Serbia",
+				"postcode": 21101
+			},
+			"latitude": 45.24847057247037,
+			"longitude": 19.849140073758335
+		},
+		"logo": "images/logo4.jpg",
+		"rating": 0.0,
+		"workingHours": {
+			"startTime": "07:00",
+			"endTime": "20:00"
+		},
+		"managerId": 7,
+		"deleted": false
+	}
+]

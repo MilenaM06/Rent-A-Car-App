@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CustomerPage</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+ -->
+
+</head>
+
+<body>
+
+	<div id="customer">
+		<customer-header></customer-header>
+	  	<router-view></router-view>
+	</div>
+	
+	<footer class="text-center text-lg-start bg-white text-muted">
+       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+           © 2023 All rights reserved
+       </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script src="js/vue.js"></script>
+	<script src="js/vue-router.js"></script>
+	<script src="js/axios.js"></script>
+	<script src="js/vuejs-datepicker.min.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script src="components/common/userProfile.js"></script>
+	<script src="components/common/home.js"></script>
+	<script src="components/common/selectedRentACar.js"></script>
+	<script src="components/customer/customerHeader.js"></script>
+	<script src="components/customer/customerOrders.js"></script>
+	<script src="components/customer/rentVehicle.js"></script>
+	<script src="components/customer/customerApp.js"></script>
+	
+</body>
+</html>

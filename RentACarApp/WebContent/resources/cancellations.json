@@ -1,0 +1,37 @@
+[
+	{
+		"customerId": "1",
+		"orderId": "1",
+		"cancellationDate": "2023-08-10"
+	},
+	{
+		"customerId": "1",
+		"orderId": "2",
+		"cancellationDate": "2023-08-15"
+	},
+	{
+		"customerId": "1",
+		"orderId": "3",
+		"cancellationDate": "2023-08-19"
+	},
+	{
+		"customerId": "1",
+		"orderId": "4",
+		"cancellationDate": "2023-07-10"
+	},
+	{
+		"customerId": "1",
+		"orderId": "5",
+		"cancellationDate": "2023-08-01"
+	},
+	{
+		"customerId": "1",
+		"orderId": "6",
+		"cancellationDate": "2023-08-22"
+	},
+	{
+		"customerId": "3",
+		"orderId": "7",
+		"cancellationDate": "2023-03-10"
+	}
+]
