@@ -8,42 +8,42 @@ The **Rent-a-Car App** is a web-based vehicle rental platform developed for the 
 
 ### General (for all users):
 - Browse companies
-[Browse companies](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/common/home.png)
+[Browse companies](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/home.png)
 - Browse vehicles listed by the company
-![Browse vehicles](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/common/selectedRentACar.png)
+![Browse vehicles](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/selectedRentACar.png)
 
 ### Non-Registered Users:
 - Register an account
-![Register](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/common/register.png)
+![Register](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/register.png)
 - Log in
-![Log in](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/common/login.png)
+![Log in](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/login.png)
 
 ### Registered Users:
 - View and edit profile information
-![Profile]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/common/userProfile.png)
+![Profile]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/userProfile.png)
 ### Customers:
 - Book and cancel rentals
-[Book and cancel rentals]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/customer/rentVehicle.png)
+[Book and cancel rentals]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/rentVehicle.png)
 - View rental history
-[View rental history](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/customer/orders.png)
-[Show order]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/customer/showOrder.png)
+[View rental history](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/orders.png)
+[Show order]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/showOrder.png)
 - Leave comments and rate vehicles
-[Comment]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/customer/comment.png)
-[Show order]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/customer/showOrder.png)
+[Comment]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/comment.png)
+[Show order]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/showOrder.png)
 
 ### Managers:
 - Manage vehicles (add/edit)
-[Manage vehicles](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/manager/addVehicle.png)
+[Manage vehicles](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/manager/addVehicle.png)
 - View and manage rental history
-[View and manage rental history](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/manager/orders.png)
+[View and manage rental history](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/manager/orders.png)
 - Accept/deny comments
-[Accept or deny comments](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/manager/comments.png)
+[Accept or deny comments](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/manager/comments.png)
 
 ### Administrators:
 - Create companies and register managers
-[Create companies and register managers](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/admin/registerObject.png)
+[Create companies and register managers](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/admin/registerObject.png)
 - View and manage all users
-[View and manage all users](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_images/admin/userProfiles.png)
+[View and manage all users](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/admin/userProfiles.png)
 
 ## Technologies
 - **Backend:** JAX-RS REST
