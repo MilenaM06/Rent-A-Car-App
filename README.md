@@ -23,27 +23,27 @@ The **Rent-a-Car App** is a web-based vehicle rental platform developed for the 
 ![Profile]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/userProfile.png)
 ### Customers:
 - Book and cancel rentals
-[Book and cancel rentals]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/rentVehicle.png)
+![Book and cancel rentals]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/rentVehicle.png)
 - View rental history
-[View rental history](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/orders.png)
-[Show order]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/showOrder.png)
+![View rental history](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/orders.png)
+![Show order]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/showOrder.png)
 - Leave comments and rate vehicles
-[Comment]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/comment.png)
-[Show order]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/showOrder.png)
+![Comment]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/comment.png)
+![Show order]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/showOrder.png)
 
 ### Managers:
 - Manage vehicles (add/edit)
-[Manage vehicles](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/manager/addVehicle.png)
+![Manage vehicles](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/manager/addVehicle.png)
 - View and manage rental history
-[View and manage rental history](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/manager/orders.png)
+![View and manage rental history](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/manager/orders.png)
 - Accept/deny comments
-[Accept or deny comments](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/manager/comments.png)
+![Accept or deny comments](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/manager/comments.png)
 
 ### Administrators:
 - Create companies and register managers
-[Create companies and register managers](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/admin/registerObject.png)
+![Create companies and register managers](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/admin/registerObject.png)
 - View and manage all users
-[View and manage all users](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/admin/userProfiles.png)
+![View and manage all users](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/admin/userProfiles.png)
 
 ## Technologies
 - **Backend:** JAX-RS REST
