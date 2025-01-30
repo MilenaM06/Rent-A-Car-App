@@ -8,7 +8,7 @@ The **Rent-a-Car App** is a web-based vehicle rental platform developed for the 
 
 ### General (for all users):
 - Browse companies
-[Browse companies](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/home.png)
+![Browse companies](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/home.png)
 - Browse vehicles listed by the company
 ![Browse vehicles](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/selectedRentACar.png)
 
@@ -76,5 +76,5 @@ To set up the project in Eclipse, follow these steps:
     - Right-click on the project -> **Run As -> Run on Server**.
 
 ## Authors
-- **Miljana Marjanović, RA 123/2020** [GitHub](https://github.com/MiljanaMa)
-- **Milena Marković, RA 83/2020** [GitHub](https://github.com/MilenaM06)
+- [**Miljana Marjanović, RA 123/2020**](https://github.com/MiljanaMa)
+- [**Milena Marković, RA 83/2020**](https://github.com/MilenaM06)
