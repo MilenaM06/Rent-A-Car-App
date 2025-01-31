@@ -45,9 +45,11 @@ The **Rent-a-Car App** is a web-based vehicle rental platform developed for the 
 - View and manage all users
 ![View and manage all users](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/admin/userProfiles.png)
 
-## Technologies
-- **Backend:** JAX-RS REST
-- **Frontend:** Vue.js
+## Tools Used
+- **IntelliJ IDEA** – Primary IDE for development
+- **Apache Tomcat** – Local server for running the web application
+- **Bootstrap** – Frontend framework for styling
+- **draw.io** – Used for creating class diagram
 
 ## Setup
 
