@@ -2,14 +2,14 @@
 
 ## Overview
 
-The **Rent-a-Car App** is a web-based vehicle rental platform developed for the **Web Programming** course at the **Faculty of Technical Sciences, Novi Sad**. Built using **JAX-RS REST** (backend) and **Vue.js** (frontend), the app allows users to browse and book vehicles of their choice. The system supports three user roles: customers, managers, and administrators. The class diagram is available [here](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/classDiagram/model-class-diagram.jpg). The application demo can be downloaded [here]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_demo/demo.mkv).
+The **Rent-a-Car App** is a web-based vehicle rental platform developed for the **Web Programming** course at the **Faculty of Technical Sciences, Novi Sad**. It is built using **JAX-RS REST** (backend) and **Vue.js** (frontend). The app allows users to browse and book vehicles of their choice. The system supports three user roles: customers, managers, and administrators. The class diagram is available [here](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/classDiagram/model-class-diagram.jpg). The application demo can be downloaded [here]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_demo/demo.mkv).
 
 ## Key Features
 
 ### General (for all users):
 - Browse companies
 ![Browse companies](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/home.png)
-- Browse vehicles listed by the company
+- View vehicles listed by the company
 ![Browse vehicles](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/common/selectedRentACar.png)
 
 ### Non-Registered Users:
@@ -29,7 +29,6 @@ The **Rent-a-Car App** is a web-based vehicle rental platform developed for the 
 ![Show order]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/showOrder.png)
 - Leave comments and rate vehicles
 ![Comment]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/comment.png)
-![Show order]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/customer/showOrder.png)
 
 ### Managers:
 - Manage vehicles (add/edit)
@@ -40,7 +39,7 @@ The **Rent-a-Car App** is a web-based vehicle rental platform developed for the 
 ![Accept or deny comments](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/manager/comments.png)
 
 ### Administrators:
-- Create companies and register managers
+- Create new companies and register managers
 ![Create companies and register managers](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/admin/registerObject.png)
 - View and manage all users
 ![View and manage all users](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_pages/admin/userProfiles.png)
