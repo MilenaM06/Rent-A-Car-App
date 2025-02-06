@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Rent-a-Car App** is a web-based vehicle rental platform developed for the **Web Programming** course at the **Faculty of Technical Sciences, Novi Sad**. It is built using **JAX-RS REST** (backend) and **Vue.js** (frontend). The app allows users to browse and book vehicles of their choice. The system supports three user roles: customers, managers, and administrators. The full specification is available [here](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/specification/Rent_A_Car_Specification_English.pdf). The class diagram is available [here](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/classDiagram/model-class-diagram.jpg). The application demo can be downloaded [here]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_demo/demo.mkv).
+The **Rent-a-Car App** is a web-based vehicle rental platform developed for the **Web Programming** course at the **Faculty of Technical Sciences, Novi Sad**. It is built using JAX-RS (Java API for RESTful Web Services) on the backend and Vue.js on the frontend. The app allows users to browse and book vehicles of their choice. The system supports three user roles: customers, managers, and administrators. The full specification is available [here](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/specification/Rent_A_Car_Specification_English.pdf). The class diagram is available [here](https://github.com/MilenaM06/Rent-A-Car-App/blob/main/classDiagram/model-class-diagram.jpg). The application demo can be downloaded [here]( https://github.com/MilenaM06/Rent-A-Car-App/blob/main/preview/final_demo/demo.mkv).
 
 ## Key Features
 
